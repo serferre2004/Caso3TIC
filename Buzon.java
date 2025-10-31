@@ -10,7 +10,7 @@ public class Buzon {
         buffer = new LinkedList<>();
     }
 
-    public synchronized void poner(Correo correo, Thread thread){
+    public synchronized void ponerPasiva(Correo correo, Thread thread){
         while (capacidad == buffer.size()){
             try {
                 System.out.println(thread.getName()+": Esperando que se libere espacio...");
@@ -25,7 +25,7 @@ public class Buzon {
         notify();
     }
 
-    public synchronized Correo quitar(Thread thread){
+    public synchronized Correo quitarPasiva(Thread thread){
         while (buffer.isEmpty()) {
             try {
                 System.out.println(thread.getName()+": Esperando correos...");
@@ -39,5 +39,15 @@ public class Buzon {
         System.out.println(thread.getName()+": Recogió el correo "+correo.getId()+" del buzón.");
         notify();
         return correo;
+    }
+
+    public synchronized void ponerSemiactiva(Correo correo, Thread thread){
+        System.out.println(thread.getName()+": Intentando poner el correo "+correo.getId()+" en el buzón.");
+        while (capacidad == buffer.size()){
+            Thread.yield();            
+        }
+        System.out.println(thread.getName()+": Puso el correo "+correo.getId()+" en el buzón.");
+        buffer.add(correo);
+        notify();
     }
 }

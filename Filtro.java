@@ -1,15 +1,19 @@
+import java.util.Random;
+
 public class Filtro extends Thread {
     private static int nEmisores = 0;
     private static int emisoresFinalizados = 0;
-    private Buzon buzonDeEntrada;
-    private Buzon buzonDeCuarentena;
-    private Buzon buzonDeSalida;
+    private static boolean activos = true;
+    private BuzonDeEntrada buzonDeEntrada;
+    private static BuzonDeCuarentena buzonDeCuarentena;
+    private static BuzonDeEntrega buzonDeEntrega;
+    private Random random = new Random();
 
-    public Filtro(String name, Buzon entrada, Buzon cuarentena, Buzon salida) {
+    public Filtro(String name, BuzonDeEntrada entrada, BuzonDeCuarentena cuarentena, BuzonDeEntrega entrega) {
         super(name);
         this.buzonDeEntrada = entrada;
         this.buzonDeCuarentena = cuarentena;
-        this.buzonDeSalida = salida;
+        buzonDeEntrega = entrega;
     }
 
     @Override
@@ -23,15 +27,36 @@ public class Filtro extends Thread {
                 nEmisores++;
                 System.out.println(getName()+": Nuevo cliente emisor.");
             } else if (tipo.equals("999")) {
+                // Mensaje de fin
                 emisoresFinalizados++;
                 System.out.println(getName()+": Emisor finalizado.");
             } else {
                 if (correo.isSpam()) {
-                    // TODO: PONER EN BUZÓN DE CUARENTENA
+                    correo.setTiempoCuarentena(random.nextInt(10)+10);
+                    buzonDeCuarentena.poner(correo, this);
                 } else {
-                    // TODO: PONER EN BUZÓN DE ENTREGA
+                    buzonDeEntrega.poner(correo,this);
                 }
             }
         }
+        while (buzonDeCuarentena.tieneCorreosEnCuarentena()) {
+            Thread.yield();
+        }
+        if (getActivos()){
+            ponerMensajeDeFin();
+            System.out.println("Filtros finalizado.");
+        }
+    }
+
+    private synchronized static void ponerMensajeDeFin() {
+        Correo correoFin = new Correo("9999999", false);
+        buzonDeEntrega.poner(correoFin, Thread.currentThread());
+        correoFin.setTiempoCuarentena(1);
+        buzonDeCuarentena.poner(correoFin, Thread.currentThread());
+        activos = false;
+    }
+
+    private static synchronized boolean getActivos() {
+        return activos;
     }
 }

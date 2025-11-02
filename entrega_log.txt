@@ -1,0 +1,13 @@
+Filtro de spam: Puso el correo 1001001 en el buzón.
+Servidor 1: Recogió el correo 1001001 del buzón.
+Filtro de spam: Puso el correo 1002001 en el buzón.
+Servidor 2: Recogió el correo 1002001 del buzón.
+Filtro de spam: Puso el correo 1001002 en el buzón.
+Filtro de spam: Puso el correo 1001003 en el buzón.
+Servidor 1: Recogió el correo 1001002 del buzón.
+Servidor 2: Recogió el correo 1001003 del buzón.
+Manejador de cuarentena: Puso el correo 1002002 en el buzón.
+Filtro de spam: Puso el correo 9999999 en el buzón.
+Servidor 1: Recogió el correo 1002002 del buzón.
+Servidor 2: Recogió el correo 9999999 del buzón.
+Servidor 1: Recogió el correo 9999999 del buzón.

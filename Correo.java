@@ -1,6 +1,8 @@
 public class Correo {
     private final String id;
     private final boolean spam;
+    private int tiempoCuarentena;
+
 
     public Correo (String id, boolean spam) {
         this.id = id;
@@ -13,5 +15,17 @@ public class Correo {
 
     public String getId() {
         return id;
+    }
+
+    public int getTiempoCuarentena() {
+        return tiempoCuarentena;
+    }
+
+    public void setTiempoCuarentena(int tiempoCuarentena) {
+        this.tiempoCuarentena = tiempoCuarentena;
+    }
+
+    public void reducirTiempo() {
+        this.tiempoCuarentena--;
     }
 }

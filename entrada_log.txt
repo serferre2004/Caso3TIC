@@ -1,0 +1,28 @@
+Emisor 2: Puso el correo 1002000 en el buzón.
+Emisor 1: Puso el correo 1001000 en el buzón.
+Filtro de spam: Recogió el correo 1002000 del buzón.
+Filtro de spam: Recogió el correo 1001000 del buzón.
+Filtro de spam: Esperando correos...
+Emisor 1: Puso el correo 1001001 en el buzón.
+Filtro de spam: Fin de espera.
+Filtro de spam: Recogió el correo 1001001 del buzón.
+Filtro de spam: Esperando correos...
+Emisor 2: Puso el correo 1002001 en el buzón.
+Filtro de spam: Fin de espera.
+Filtro de spam: Recogió el correo 1002001 del buzón.
+Filtro de spam: Esperando correos...
+Emisor 1: Puso el correo 1001002 en el buzón.
+Filtro de spam: Fin de espera.
+Filtro de spam: Recogió el correo 1001002 del buzón.
+Emisor 2: Puso el correo 1002002 en el buzón.
+Filtro de spam: Recogió el correo 1002002 del buzón.
+Emisor 1: Puso el correo 1001003 en el buzón.
+Emisor 1: Puso el correo 1001999 en el buzón.
+Emisor 2: Esperando que se libere espacio...
+Filtro de spam: Recogió el correo 1001003 del buzón.
+Emisor 2: Fin de espera.
+Emisor 2: Puso el correo 1002003 en el buzón.
+Filtro de spam: Recogió el correo 1001999 del buzón.
+Emisor 2: Puso el correo 1002999 en el buzón.
+Filtro de spam: Recogió el correo 1002003 del buzón.
+Filtro de spam: Recogió el correo 1002999 del buzón.

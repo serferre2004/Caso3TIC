@@ -2,17 +2,16 @@ import java.util.Random;
 public class Emisor extends Thread {
     private final String id;
     private final int nCorreos;
-    private Buzon buzonDeEntrada;
+    private BuzonDeEntrada buzonDeEntrada;
     private int contadorCorreos;
     private static Random random = new Random();
 
-    public Emisor(String name, String id, int nCorreos, Buzon buzonDeEntrada) {
+    public Emisor(String name, String id, int nCorreos, BuzonDeEntrada buzonDeEntrada) {
         super(name);
         this.id = id;
         this.nCorreos = nCorreos;
         this.buzonDeEntrada = buzonDeEntrada;
         this.contadorCorreos = 0;
-        System.out.println("Nuevo emisor ("+name+") creado");
     }
 
     @Override

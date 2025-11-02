@@ -1,0 +1,9 @@
+Filtro de spam: Asignó a 1002002 17s de cuarentena.
+Filtro de spam: Puso el correo 1002002 en el buzón.
+Filtro de spam: Asignó a 1002003 19s de cuarentena.
+Filtro de spam: Puso el correo 1002003 en el buzón.
+Manejador de cuarentena: Recogió el correo 1002002 del buzón.
+Manejador de cuarentena: Recogió el correo 1002003 del buzón.
+Filtro de spam: Asignó a 9999999 1s de cuarentena.
+Filtro de spam: Puso el correo 9999999 en el buzón.
+Manejador de cuarentena: Recogió el correo 9999999 del buzón.

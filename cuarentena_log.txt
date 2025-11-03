@@ -1,9 +1,72 @@
-Filtro de spam: Asignó a 1002002 17s de cuarentena.
-Filtro de spam: Puso el correo 1002002 en el buzón.
-Filtro de spam: Asignó a 1002003 19s de cuarentena.
-Filtro de spam: Puso el correo 1002003 en el buzón.
+Filtro 2: Asignó a 1005001 12s de cuarentena.
+Filtro 2: Puso el correo 1005001 en el buzón.
+Filtro 2: Asignó a 1001001 14s de cuarentena.
+Filtro 2: Puso el correo 1001001 en el buzón.
+Filtro 2: Asignó a 1005002 11s de cuarentena.
+Filtro 2: Puso el correo 1005002 en el buzón.
+Filtro 2: Asignó a 1003001 13s de cuarentena.
+Filtro 2: Puso el correo 1003001 en el buzón.
+Filtro 2: Asignó a 1001002 12s de cuarentena.
+Filtro 2: Puso el correo 1001002 en el buzón.
+Filtro 2: Asignó a 1005003 11s de cuarentena.
+Filtro 2: Puso el correo 1005003 en el buzón.
+Filtro 1: Asignó a 1004003 12s de cuarentena.
+Filtro 1: Puso el correo 1004003 en el buzón.
+Filtro 1: Asignó a 1002002 17s de cuarentena.
+Filtro 1: Puso el correo 1002002 en el buzón.
+Filtro 2: Asignó a 1003002 13s de cuarentena.
+Filtro 2: Puso el correo 1003002 en el buzón.
+Filtro 2: Asignó a 1005004 10s de cuarentena.
+Filtro 2: Puso el correo 1005004 en el buzón.
+Filtro 2: Asignó a 1003003 19s de cuarentena.
+Filtro 2: Puso el correo 1003003 en el buzón.
+Filtro 2: Asignó a 1004004 15s de cuarentena.
+Filtro 2: Puso el correo 1004004 en el buzón.
+Filtro 2: Asignó a 1001004 11s de cuarentena.
+Filtro 2: Puso el correo 1001004 en el buzón.
+Filtro 1: Asignó a 1005006 15s de cuarentena.
+Filtro 1: Puso el correo 1005006 en el buzón.
+Filtro 2: Asignó a 1003005 13s de cuarentena.
+Filtro 2: Puso el correo 1003005 en el buzón.
+Filtro 2: Asignó a 1001006 14s de cuarentena.
+Filtro 2: Puso el correo 1001006 en el buzón.
+Filtro 1: Asignó a 1004006 19s de cuarentena.
+Filtro 1: Puso el correo 1004006 en el buzón.
+Filtro 2: Asignó a 1001007 17s de cuarentena.
+Filtro 2: Puso el correo 1001007 en el buzón.
+Filtro 1: Asignó a 1002006 10s de cuarentena.
+Filtro 1: Puso el correo 1002006 en el buzón.
+Filtro 2: Asignó a 1005008 10s de cuarentena.
+Filtro 2: Puso el correo 1005008 en el buzón.
+Filtro 1: Asignó a 1001008 14s de cuarentena.
+Filtro 1: Puso el correo 1001008 en el buzón.
+Filtro 1: Asignó a 1004008 13s de cuarentena.
+Filtro 1: Puso el correo 1004008 en el buzón.
+Filtro 1: Asignó a 1002007 18s de cuarentena.
+Filtro 1: Puso el correo 1002007 en el buzón.
+Manejador de cuarentena: Recogió el correo 1005004 del buzón.
+Manejador de cuarentena: Recogió el correo 1005001 del buzón.
+Manejador de cuarentena: Recogió el correo 1005002 del buzón.
+Manejador de cuarentena: Recogió el correo 1003001 del buzón.
+Manejador de cuarentena: Recogió el correo 1001001 del buzón.
+Manejador de cuarentena: Recogió el correo 1001002 del buzón.
+Manejador de cuarentena: Recogió el correo 1005003 del buzón.
+Manejador de cuarentena: Recogió el correo 1004003 del buzón.
 Manejador de cuarentena: Recogió el correo 1002002 del buzón.
-Manejador de cuarentena: Recogió el correo 1002003 del buzón.
-Filtro de spam: Asignó a 9999999 1s de cuarentena.
-Filtro de spam: Puso el correo 9999999 en el buzón.
+Manejador de cuarentena: Recogió el correo 1003002 del buzón.
+Manejador de cuarentena: Recogió el correo 1003003 del buzón.
+Manejador de cuarentena: Recogió el correo 1004004 del buzón.
+Manejador de cuarentena: Recogió el correo 1001004 del buzón.
+Manejador de cuarentena: Recogió el correo 1005006 del buzón.
+Manejador de cuarentena: Recogió el correo 1003005 del buzón.
+Manejador de cuarentena: Recogió el correo 1001006 del buzón.
+Manejador de cuarentena: Recogió el correo 1004006 del buzón.
+Manejador de cuarentena: Recogió el correo 1001007 del buzón.
+Manejador de cuarentena: Recogió el correo 1002006 del buzón.
+Manejador de cuarentena: Recogió el correo 1005008 del buzón.
+Manejador de cuarentena: Recogió el correo 1001008 del buzón.
+Manejador de cuarentena: Recogió el correo 1004008 del buzón.
+Manejador de cuarentena: Recogió el correo 1002007 del buzón.
+Filtro 1: Asignó a 9999999 1s de cuarentena.
+Filtro 1: Puso el correo 9999999 en el buzón.
 Manejador de cuarentena: Recogió el correo 9999999 del buzón.

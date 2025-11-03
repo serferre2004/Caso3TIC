@@ -15,7 +15,7 @@ public abstract class Buzon {
         File file = new File(fileName);
         file.delete();
     }
-    public abstract void poner(Correo correo, Thread thread);
+    public abstract boolean poner(Correo correo, Thread thread);
     public abstract Correo quitar(Thread thread);
     
     protected void log(String message) {

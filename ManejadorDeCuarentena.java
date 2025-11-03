@@ -26,7 +26,10 @@ public class ManejadorDeCuarentena extends Thread {
                 if (numeroDescarte % 7 == 0) {
                     System.out.println(getName()+": Descartó el correo "+correo.getId());
                 } else {
-                    buzonDeEntrega.poner(correo, this);
+                    while (!buzonDeEntrega.poner(correo,this)){
+                        // Reintenta poner el correo si se presenta condición de carrera
+                        Thread.yield();
+                    }
                 }
             }
             try{

@@ -8,7 +8,7 @@ public class BuzonDeEntrada extends Buzon {
     }
 
     @Override
-    public synchronized void poner(Correo correo, Thread thread){
+    public synchronized boolean poner(Correo correo, Thread thread){
         while (capacidad == buffer.size()){
             try {
                 log(thread.getName()+": Esperando que se libere espacio...");
@@ -21,6 +21,7 @@ public class BuzonDeEntrada extends Buzon {
         log(thread.getName()+": Puso el correo "+correo.getId()+" en el buzón.");
         buffer.add(correo);
         notify();
+        return true;
     }
 
     @Override

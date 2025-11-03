@@ -1,28 +1,118 @@
-Emisor 2: Puso el correo 1002000 en el buzón.
+Emisor 4: Puso el correo 1004000 en el buzón.
+Filtro 2: Recogió el correo 1004000 del buzón.
+Filtro 1: Esperando correos...
+Emisor 5: Puso el correo 1005000 en el buzón.
 Emisor 1: Puso el correo 1001000 en el buzón.
-Filtro de spam: Recogió el correo 1002000 del buzón.
-Filtro de spam: Recogió el correo 1001000 del buzón.
-Filtro de spam: Esperando correos...
+Emisor 3: Puso el correo 1003000 en el buzón.
+Emisor 2: Puso el correo 1002000 en el buzón.
+Filtro 1: Fin de espera.
+Filtro 1: Recogió el correo 1005000 del buzón.
+Filtro 1: Recogió el correo 1001000 del buzón.
+Filtro 2: Recogió el correo 1003000 del buzón.
+Emisor 4: Puso el correo 1004001 en el buzón.
+Emisor 5: Puso el correo 1005001 en el buzón.
 Emisor 1: Puso el correo 1001001 en el buzón.
-Filtro de spam: Fin de espera.
-Filtro de spam: Recogió el correo 1001001 del buzón.
-Filtro de spam: Esperando correos...
+Emisor 5: Puso el correo 1005002 en el buzón.
+Emisor 4: Puso el correo 1004002 en el buzón.
+Filtro 1: Recogió el correo 1002000 del buzón.
+Filtro 2: Recogió el correo 1004001 del buzón.
 Emisor 2: Puso el correo 1002001 en el buzón.
-Filtro de spam: Fin de espera.
-Filtro de spam: Recogió el correo 1002001 del buzón.
-Filtro de spam: Esperando correos...
+Emisor 3: Puso el correo 1003001 en el buzón.
+Filtro 2: Recogió el correo 1005001 del buzón.
 Emisor 1: Puso el correo 1001002 en el buzón.
-Filtro de spam: Fin de espera.
-Filtro de spam: Recogió el correo 1001002 del buzón.
+Filtro 2: Recogió el correo 1001001 del buzón.
+Filtro 2: Recogió el correo 1005002 del buzón.
+Filtro 2: Recogió el correo 1004002 del buzón.
+Filtro 2: Recogió el correo 1002001 del buzón.
+Filtro 2: Recogió el correo 1003001 del buzón.
+Emisor 5: Puso el correo 1005003 en el buzón.
+Filtro 2: Recogió el correo 1001002 del buzón.
+Emisor 4: Puso el correo 1004003 en el buzón.
+Filtro 2: Recogió el correo 1005003 del buzón.
+Filtro 1: Recogió el correo 1004003 del buzón.
+Filtro 2: Esperando correos...
 Emisor 2: Puso el correo 1002002 en el buzón.
-Filtro de spam: Recogió el correo 1002002 del buzón.
+Filtro 1: Recogió el correo 1002002 del buzón.
+Filtro 2: Fin de espera.
+Filtro 2: Esperando correos...
+Filtro 1: Esperando correos...
+Emisor 3: Puso el correo 1003002 en el buzón.
+Filtro 2: Fin de espera.
+Filtro 2: Recogió el correo 1003002 del buzón.
+Filtro 1: Fin de espera.
+Filtro 1: Esperando correos...
+Filtro 2: Esperando correos...
 Emisor 1: Puso el correo 1001003 en el buzón.
-Emisor 1: Puso el correo 1001999 en el buzón.
-Emisor 2: Esperando que se libere espacio...
-Filtro de spam: Recogió el correo 1001003 del buzón.
-Emisor 2: Fin de espera.
+Filtro 1: Fin de espera.
+Filtro 1: Recogió el correo 1001003 del buzón.
+Filtro 2: Fin de espera.
+Filtro 2: Esperando correos...
+Emisor 5: Puso el correo 1005004 en el buzón.
+Filtro 2: Fin de espera.
+Filtro 2: Recogió el correo 1005004 del buzón.
+Emisor 3: Puso el correo 1003003 en el buzón.
 Emisor 2: Puso el correo 1002003 en el buzón.
-Filtro de spam: Recogió el correo 1001999 del buzón.
+Filtro 2: Recogió el correo 1003003 del buzón.
+Emisor 5: Puso el correo 1005005 en el buzón.
+Emisor 4: Puso el correo 1004004 en el buzón.
+Filtro 1: Recogió el correo 1002003 del buzón.
+Filtro 2: Recogió el correo 1005005 del buzón.
+Emisor 2: Puso el correo 1002004 en el buzón.
+Emisor 3: Puso el correo 1003004 en el buzón.
+Emisor 1: Puso el correo 1001004 en el buzón.
+Filtro 2: Recogió el correo 1004004 del buzón.
+Filtro 1: Recogió el correo 1002004 del buzón.
+Emisor 1: Puso el correo 1001005 en el buzón.
+Emisor 5: Puso el correo 1005006 en el buzón.
+Filtro 1: Recogió el correo 1003004 del buzón.
+Filtro 2: Recogió el correo 1001004 del buzón.
+Emisor 4: Puso el correo 1004005 en el buzón.
+Filtro 1: Recogió el correo 1001005 del buzón.
+Emisor 2: Puso el correo 1002005 en el buzón.
+Filtro 1: Recogió el correo 1005006 del buzón.
+Emisor 3: Puso el correo 1003005 en el buzón.
+Emisor 1: Puso el correo 1001006 en el buzón.
+Filtro 2: Recogió el correo 1004005 del buzón.
+Filtro 1: Recogió el correo 1002005 del buzón.
+Emisor 4: Puso el correo 1004006 en el buzón.
+Filtro 2: Recogió el correo 1003005 del buzón.
+Emisor 5: Puso el correo 1005007 en el buzón.
+Emisor 4: Puso el correo 1004007 en el buzón.
+Emisor 1: Puso el correo 1001007 en el buzón.
+Emisor 3: Puso el correo 1003006 en el buzón.
+Emisor 2: Puso el correo 1002006 en el buzón.
+Emisor 5: Puso el correo 1005008 en el buzón.
+Emisor 5: Puso el correo 1005999 en el buzón.
+Filtro 2: Recogió el correo 1001006 del buzón.
+Filtro 1: Recogió el correo 1004006 del buzón.
+Emisor 3: Puso el correo 1003007 en el buzón.
+Emisor 1: Puso el correo 1001008 en el buzón.
+Emisor 4: Puso el correo 1004008 en el buzón.
+Emisor 4: Esperando que se libere espacio...
+Emisor 1: Esperando que se libere espacio...
+Filtro 2: Recogió el correo 1005007 del buzón.
+Emisor 4: Fin de espera.
+Emisor 4: Puso el correo 1004999 en el buzón.
+Filtro 2: Recogió el correo 1004007 del buzón.
+Emisor 1: Fin de espera.
+Emisor 1: Puso el correo 1001999 en el buzón.
+Filtro 2: Recogió el correo 1001007 del buzón.
+Filtro 1: Recogió el correo 1003006 del buzón.
+Emisor 3: Puso el correo 1003008 en el buzón.
+Emisor 3: Puso el correo 1003999 en el buzón.
+Filtro 1: Recogió el correo 1002006 del buzón.
+Emisor 2: Puso el correo 1002007 en el buzón.
+Filtro 2: Recogió el correo 1005008 del buzón.
+Filtro 1: Recogió el correo 1005999 del buzón.
+Emisor 2: Puso el correo 1002008 en el buzón.
+Filtro 2: Recogió el correo 1003007 del buzón.
+Filtro 1: Recogió el correo 1001008 del buzón.
 Emisor 2: Puso el correo 1002999 en el buzón.
-Filtro de spam: Recogió el correo 1002003 del buzón.
-Filtro de spam: Recogió el correo 1002999 del buzón.
+Filtro 1: Recogió el correo 1004008 del buzón.
+Filtro 1: Recogió el correo 1004999 del buzón.
+Filtro 1: Recogió el correo 1001999 del buzón.
+Filtro 1: Recogió el correo 1003008 del buzón.
+Filtro 1: Recogió el correo 1003999 del buzón.
+Filtro 1: Recogió el correo 1002007 del buzón.
+Filtro 1: Recogió el correo 1002008 del buzón.
+Filtro 2: Recogió el correo 1002999 del buzón.

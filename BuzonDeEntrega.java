@@ -9,19 +9,26 @@ public class BuzonDeEntrega extends Buzon{
     }
 
     @Override
-    public synchronized void poner(Correo correo, Thread thread){
+    public boolean poner(Correo correo, Thread thread){
+        log(thread.getName()+": Intentando poner el correo "+correo.getId()+" en el buzón.");
         while (capacidad == buffer.size()){
-            log(thread.getName()+": Esperando que se libere espacio...");
             Thread.yield();
-            log(thread.getName()+": Fin de espera.");
         }
-        log(thread.getName()+": Puso el correo "+correo.getId()+" en el buzón.");
-        if (correo.getId().equals("9999999")) {
-            for (int i = 0; i < nServidores; i++) {
+        while (correo.getId().equals("9999999") && capacidad - buffer.size() < nServidores){
+            // Espera a que haya espacio para poner los mensajes de fin para cada servidor
+            Thread.yield();
+        }
+        synchronized (this) {
+            if (buffer.size() == capacidad) return false;
+            log(thread.getName()+": Puso el correo "+correo.getId()+" en el buzón.");
+            if (correo.getId().equals("9999999")) {
+                for (int i = 0; i < nServidores; i++) {
+                    buffer.add(correo);
+                }
+            } else {
                 buffer.add(correo);
             }
-        } else {
-            buffer.add(correo);
+            return true;
         }
     }
     
@@ -31,6 +38,9 @@ public class BuzonDeEntrega extends Buzon{
             // Servidor esperando
         }
         synchronized (this) {
+            if (buffer.isEmpty()) {
+                return null; // Se pueden dar condiciones de carrera aquí
+            }
             Correo correo = buffer.poll();
             log(thread.getName()+": Recogió el correo "+correo.getId()+" del buzón.");
             return correo;

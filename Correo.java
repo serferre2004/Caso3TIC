@@ -26,6 +26,6 @@ public class Correo {
     }
 
     public void reducirTiempo() {
-        this.tiempoCuarentena--;
+        if (tiempoCuarentena > 0) this.tiempoCuarentena--;
     }
 }

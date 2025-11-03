@@ -35,12 +35,19 @@ public class Filtro extends Thread {
                     correo.setTiempoCuarentena(random.nextInt(10)+10);
                     buzonDeCuarentena.poner(correo, this);
                 } else {
-                    buzonDeEntrega.poner(correo,this);
+                    while (!buzonDeEntrega.poner(correo,this)){
+                        // Reintenta poner el correo si se presenta condición de carrera
+                        Thread.yield();
+                    }
                 }
             }
         }
         while (buzonDeCuarentena.tieneCorreosEnCuarentena()) {
-            Thread.yield();
+            try {
+                sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         if (getActivos()){
             ponerMensajeDeFin();
@@ -50,7 +57,10 @@ public class Filtro extends Thread {
 
     private synchronized static void ponerMensajeDeFin() {
         Correo correoFin = new Correo("9999999", false);
-        buzonDeEntrega.poner(correoFin, Thread.currentThread());
+        while(!buzonDeEntrega.poner(correoFin, Thread.currentThread())){
+            // Reintenta poner el correo si se presenta condición de carrera
+            Thread.yield();
+        }
         correoFin.setTiempoCuarentena(1);
         buzonDeCuarentena.poner(correoFin, Thread.currentThread());
         activos = false;

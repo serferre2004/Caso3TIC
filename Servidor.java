@@ -14,6 +14,9 @@ public class Servidor extends Thread {
     public void run() {
         while (activo) {
             Correo correo = buzonDeEntrega.quitar(this);
+            if (correo == null) {
+                continue;
+            }
             if (correo.getId().equals("9999999")) {
                 activo = false;
                 System.out.println(getName()+": Servidor finalizado.");
@@ -25,7 +28,7 @@ public class Servidor extends Thread {
 
     private void leerCorreo(Correo correo) {
         try{
-            sleep(random.nextInt(10000)+10000);
+            sleep(random.nextInt(5000)+5000);
         } catch (Exception e) {
             e.printStackTrace();
         }
